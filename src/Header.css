@@ -1,0 +1,23 @@
+.custom-nav {
+  background-color: var(--secondary);
+  height: 80px;
+}
+
+.nav-link,
+.nav-link:focus {
+  font-family: var(--main-font);
+  font-size: 28px;
+  color: white;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+Link:visited,
+Link:focus,
+Link:active {
+  font-family: var(--main-font);
+  font-size: 28px;
+  color: white;
+}

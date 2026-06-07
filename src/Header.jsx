@@ -1,0 +1,22 @@
+import { Link } from "react-router-dom";
+import "./Header.css";
+
+function Header() {
+  return (
+    <div className="sticky-top custom-nav d-flex align-items-center">
+      <div className="container">
+        <nav className="navbar d-flex justify-content-evenly">
+          <Link className="nav-link fw-semibold" to="/">
+            Home
+          </Link>
+          <a className="nav-link fw-semibold">Services</a>
+          <a className="nav-link fw-semibold">About Us</a>
+          <a className="nav-link fw-semibold">Contact Us</a>
+          <a className="nav-link fw-semibold">Team</a>
+        </nav>
+      </div>
+    </div>
+  );
+}
+
+export default Header;
