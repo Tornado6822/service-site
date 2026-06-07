@@ -16,6 +16,7 @@ function Team() {
               <h5 className="card-title">Sarah Mitchell</h5>
               <hr />
               <p className="card-description">Lead Physiotherapist</p>
+              <button className="btn btn-primary btn-bio">Learn More</button>
             </div>
           </div>
           <div className="col-6 col-md-4 d-flex justify-content-center">
@@ -27,6 +28,7 @@ function Team() {
               <h5 className="card-title">David Chen</h5>
               <hr />
               <p className="card-description">Sports Physiotherapist</p>
+              <button className="btn btn-primary btn-bio">Learn More</button>
             </div>
           </div>
           <div className="col-6 col-md-4 d-flex justify-content-center">
@@ -38,6 +40,7 @@ function Team() {
               <h5 className="card-title">Michael Foster</h5>
               <hr />
               <p className="card-description">Acupuncture Specialist</p>
+              <button className="btn btn-primary btn-bio">Learn More</button>
             </div>
           </div>
         </div>

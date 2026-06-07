@@ -3,6 +3,7 @@ import Header from "../Header.jsx";
 import Hero from "../Hero.jsx";
 import Services from "../Services.jsx";
 import Team from "../Team.jsx";
+import Footer from "../Footer.jsx";
 
 import { FaFacebookSquare, FaInstagramSquare, FaYoutube } from "react-icons/fa";
 
@@ -40,6 +41,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Team />
+      <Footer />
     </>
   );
 }

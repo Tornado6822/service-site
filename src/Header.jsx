@@ -12,10 +12,14 @@ function Header() {
           <a href="#services" className="nav-link fw-semibold">
             Services
           </a>
-          <a className="nav-link fw-semibold">About Us</a>
-          <a className="nav-link fw-semibold">Contact Us</a>
           <a href="#team" className="nav-link fw-semibold">
-            Team
+            Our Team
+          </a>
+          <a href="#footer" className="nav-link fw-semibold">
+            About Us
+          </a>
+          <a href="#footer" className="nav-link fw-semibold">
+            Contact Us
           </a>
         </nav>
       </div>

@@ -4,7 +4,7 @@ function Services() {
   return (
     <section id="services" className="d-flex justify-content-center py-5 mt-5">
       <div className="container">
-        <h1 className="text-center mb-5 fw-bold">
+        <h1 className="text-center my-5 fw-bold">
           Comprehensive Ottawa Physiotherapist Solutions
         </h1>
         <div className="row align-items-center my-3">
