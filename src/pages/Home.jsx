@@ -1,10 +1,18 @@
 import "./Home.css";
 import Header from "../Header.jsx";
+import Hero from "../Hero.jsx";
+import Services from "../Services.jsx";
+import Team from "../Team.jsx";
+
+import { FaFacebookSquare, FaInstagramSquare, FaYoutube } from "react-icons/fa";
 
 export default function Home() {
   return (
     <>
-      <header className="d-flex justify-content-between align-items-center p-3">
+      <header
+        id="home"
+        className="d-flex justify-content-between align-items-center p-3"
+      >
         <div className="d-flex align-items-center gap-2">
           <img
             src="./companyIcon.png"
@@ -19,11 +27,19 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
+        <div className="d-flex align-items-center gap-5">
           <button className="btn btn-primary">Book Now</button>
+          <div className="d-flex align-items-center gap-3">
+            <FaFacebookSquare className="icon" />
+            <FaInstagramSquare className="icon" />
+            <FaYoutube className="icon" />
+          </div>
         </div>
       </header>
       <Header />
+      <Hero />
+      <Services />
+      <Team />
     </>
   );
 }

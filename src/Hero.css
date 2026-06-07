@@ -1,0 +1,31 @@
+.hero {
+  height: calc(100vh - 212px);
+
+  background-image: url("./heroBackground.jpg");
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(2, 44, 87, 0.25);
+}
+
+.hero-content {
+  padding-top: 80px;
+  padding-right: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 52px;
+  font-weight: bolder;
+  color: white;
+}
+
+.hero-content p {
+  font-size: 28px;
+  color: var(--bg-main);
+}

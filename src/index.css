@@ -2,6 +2,7 @@
   --bg-main: #ecf8fa;
   --primary: #8dd5e5;
   --secondary: #022c57;
+  --secondary-rgb: rgb(2 44 87);
 
   --header-font: "Montserrat", sans-serif;
   --main-font: "Open Sans", sans-serif;
@@ -18,8 +19,27 @@ body {
   padding: 0 24px;
 }
 
-h1,
-h2,
+h1 {
+  color: var(--secondary);
+}
+
+h1 h2,
 h3 {
   font-family: var(--header-font);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-width: 0px;
+  color: var(--secondary);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary);
+}
+
+section {
+  scroll-margin-top: 80px;
 }

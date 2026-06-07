@@ -9,10 +9,14 @@ function Header() {
           <Link className="nav-link fw-semibold" to="/">
             Home
           </Link>
-          <a className="nav-link fw-semibold">Services</a>
+          <a href="#services" className="nav-link fw-semibold">
+            Services
+          </a>
           <a className="nav-link fw-semibold">About Us</a>
           <a className="nav-link fw-semibold">Contact Us</a>
-          <a className="nav-link fw-semibold">Team</a>
+          <a href="#team" className="nav-link fw-semibold">
+            Team
+          </a>
         </nav>
       </div>
     </div>

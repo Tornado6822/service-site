@@ -5,3 +5,9 @@
 .subTitle {
   color: black;
 }
+
+.icon {
+  color: var(--secondary);
+  width: 30px;
+  height: auto;
+}
