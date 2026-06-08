@@ -1,0 +1,38 @@
+.appointment-section {
+  background-color: var(--bg-main);
+}
+
+.appointment-section p {
+  font-size: 18px;
+  color: #4f6b85;
+  font-family: "Open Sans", sans-serif;
+}
+
+.appointment-container {
+  max-width: 800px;
+}
+
+/* inputs */
+.form-control,
+.form-select {
+  border-radius: 6px;
+  padding: 10px;
+}
+
+/* labels */
+.form-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* button */
+.btn-success {
+  background-color: #8cc63f;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.btn-success:hover {
+  background-color: #7ab32f;
+}

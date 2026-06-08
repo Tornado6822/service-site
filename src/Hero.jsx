@@ -1,4 +1,5 @@
 import "./Hero.css";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -15,7 +16,9 @@ function Hero() {
                 you recover from injury, reduce pain, and return to the
                 activities you enjoy.
               </p>
-              <button className="btn btn-primary">Book Appointment</button>
+              <Link to="/Booking">
+                <button className="btn btn-primary">Book Appointment</button>
+              </Link>
               <a href="#services">
                 <button className="btn btn-primary mx-5">Find Out More</button>
               </a>

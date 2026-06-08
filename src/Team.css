@@ -20,7 +20,7 @@ hr {
   object-fit: cover;
 }
 
-.card {
+.bio-card {
   background-color: var(--bg-main);
   border-width: 0;
 }

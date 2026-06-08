@@ -1,4 +1,5 @@
 import "./Team.css";
+import { Link } from "react-router-dom";
 
 function Team() {
   return (
@@ -8,7 +9,7 @@ function Team() {
         <hr className="mb-5" />
         <div className="row">
           <div className="col-6 col-md-4 d-flex justify-content-center">
-            <div className="card d-flex align-items-center">
+            <div className="card bio-card d-flex align-items-center">
               <div className="bio-img-wrapper">
                 <img src="./bio1.webp" alt="Sarah Mitchell" />
               </div>
@@ -16,11 +17,10 @@ function Team() {
               <h5 className="card-title">Sarah Mitchell</h5>
               <hr />
               <p className="card-description">Lead Physiotherapist</p>
-              <button className="btn btn-primary btn-bio">Learn More</button>
             </div>
           </div>
           <div className="col-6 col-md-4 d-flex justify-content-center">
-            <div className="card d-flex align-items-center">
+            <div className="card bio-card d-flex align-items-center">
               <div className="bio-img-wrapper">
                 <img src="./bio2.webp" alt="David Chen" />
               </div>
@@ -28,11 +28,10 @@ function Team() {
               <h5 className="card-title">David Chen</h5>
               <hr />
               <p className="card-description">Sports Physiotherapist</p>
-              <button className="btn btn-primary btn-bio">Learn More</button>
             </div>
           </div>
           <div className="col-6 col-md-4 d-flex justify-content-center">
-            <div className="card d-flex align-items-center">
+            <div className="card bio-card d-flex align-items-center">
               <div className="bio-img-wrapper">
                 <img src="./bio3.webp" alt="Michael Foster" />
               </div>
@@ -40,7 +39,6 @@ function Team() {
               <h5 className="card-title">Michael Foster</h5>
               <hr />
               <p className="card-description">Acupuncture Specialist</p>
-              <button className="btn btn-primary btn-bio">Learn More</button>
             </div>
           </div>
         </div>

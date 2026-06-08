@@ -6,6 +6,7 @@ import Team from "../Team.jsx";
 import Footer from "../Footer.jsx";
 
 import { FaFacebookSquare, FaInstagramSquare, FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -29,11 +30,20 @@ export default function Home() {
         </div>
 
         <div className="d-flex align-items-center gap-5">
-          <button className="btn btn-primary">Book Now</button>
+          <Link to="/Booking">
+            <button className="btn btn-primary">Book Now</button>
+          </Link>
+
           <div className="d-flex align-items-center gap-3">
-            <FaFacebookSquare className="icon" />
-            <FaInstagramSquare className="icon" />
-            <FaYoutube className="icon" />
+            <a href="https://facebook.com">
+              <FaFacebookSquare className="icon" />
+            </a>
+            <a href="https://instagram.com">
+              <FaInstagramSquare className="icon" />
+            </a>
+            <a href="https://youtube.com">
+              <FaYoutube className="icon" />
+            </a>
           </div>
         </div>
       </header>
