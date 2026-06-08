@@ -12,22 +12,25 @@ function Booking() {
 
   if (confirmed) {
     return (
-      <section className="appointment-section py-5">
-        <div className="container text-center">
-          <h1 className="mb-3">Appointment Request Received</h1>
+      <>
+        <Header />
+        <section className="appointment-section py-5">
+          <div className="container text-center">
+            <h1 className="mb-3">Appointment Request Received</h1>
 
-          <p>Thank you for choosing Thrive Physiotherapy.</p>
+            <p>Thank you for choosing Thrive Physiotherapy.</p>
 
-          <p>You will receive an email with the details shortly.</p>
+            <p>You will receive an email with the details shortly.</p>
 
-          <button
-            className="btn btn-primary mt-3"
-            onClick={() => setConfirmed(false)}
-          >
-            Submit Another Request
-          </button>
-        </div>
-      </section>
+            <button
+              className="btn btn-primary mt-3"
+              onClick={() => setConfirmed(false)}
+            >
+              Submit Another Request
+            </button>
+          </div>
+        </section>
+      </>
     );
   }
 
