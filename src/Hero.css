@@ -1,7 +1,7 @@
 .hero {
   height: calc(100vh - 212px);
 
-  background-image: url("./heroBackground.jpg");
+  background-image: url("/heroBackground.jpg");
   background-size: cover;
   background-position: center;
 
